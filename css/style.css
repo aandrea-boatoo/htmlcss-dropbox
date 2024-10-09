@@ -4,3 +4,32 @@
     box-sizing: border-box;
     font-family: "open sans" , sans-serif;
 }
+
+.debug{
+    border: 1px solid red;
+}
+
+/* root */
+:root {
+	--color-blue-button: #0061ff;
+	--color-sky-bg: #b4d0e7;
+	--color-designit: #a2d39b;
+	--color-florida: #0093ce;
+	--color-asu: #61082b;
+	--color-topps: #ff1c1c;
+	--color-world-bicycle-relief: #d5001f;
+	--color-lonely-planet: #0d2481;
+	--color-hearts: #b4d0e7;
+	--color-clear-channel: #ffd830;
+	--color-contrast-text: #61092b;
+}
+
+/* flex utilities */
+
+/* header */
+
+
+/* main */
+
+
+/* footer */
