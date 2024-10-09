@@ -66,7 +66,19 @@ ul{
     height: 100%;
 }
 
+.brd-btm{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.brd-btm:hover{
+    border-bottom: 3px solid black;
+}
+
 a{
+    display: inline-block;
+    height: 50px;
     color: black;
     text-decoration: none;
 }
@@ -94,9 +106,13 @@ a{
     background-color: var(--color-blue-button);
 }
 
+.hd-button a{
+    padding: 0 90px;
+}
+
 span a:not(.plan-margin .button a){
     color: white;
-    padding: 15px 45px;
+    height: 50px;
     text-decoration: none;
     line-height: 50px;
 }
