@@ -5,10 +5,6 @@
     font-family: "open sans" , sans-serif;
 }
 
-.debug{
-    border: 1px solid red;
-}
-
 /* root */
 :root {
 	--color-blue-button: #0061ff;
@@ -76,7 +72,7 @@ ul{
     border-bottom: 3px solid black;
 }
 
-a{
+a:not(figure a){
     display: inline-block;
     height: 50px;
     color: black;
@@ -174,29 +170,33 @@ input{
     margin: 15px;
 }
 
-.plan{
+.plans{
     width: 30%;
+    
+}
+
+.grey-brd{
     border: 1px solid lightgrey;
-    font-size: 0.8em;
 }
 
 .plan-margin{
     width: 80%;
     margin: 0 auto;
+    /* font-size: 0.9em; */
 }
 
-.plan p{
+.grey-brd p{
     border: 1px solid lightgrey;
     padding: 5px;
     text-align: center;
 }
 
-.plan i{
+.plans i{
     padding: 4px;
 }
 
 h3{
-    margin: 15px 0;
+    padding: 15px 0;
 }
 
 .price{
@@ -216,7 +216,8 @@ li i{
     width: 10%;
 }
 li span{
-    width: 85%;
+    width: 88%;
+    font-size: 0.8em;
 }
 
 .plan-margin .button{
@@ -249,4 +250,33 @@ figure a{
 .fa-check{
     color: #0061ff;
 }
+
+/* enterprise */
+
+#enterprise{
+    margin: 30px;
+}
+
+#enterprise .text{
+    width: 60%;
+    padding: 30px;
+}
+
+#enterprise figure{
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#enterprise a{
+    display: inline-block;
+    width: 100%;
+}
+
+#enterprise .button{
+    width: 30%;
+    margin: 45px 30px;
+}
+
+
+
 /* footer */
