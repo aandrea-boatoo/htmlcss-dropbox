@@ -302,15 +302,24 @@ figure a{
 }
 
 /* business */
+
 #business{
     margin: 60px 0;
 }
 
 .card{
-    width: 33%;
+    width: 30%;
 }
-#business .text{
-    max-width: 70%;
-    margin: 0 auto;
+
+
+/* customers */
+
+#customers{
+    margin: 150px;
 }
+
+/* collab */
+
+
+
 /* footer */
