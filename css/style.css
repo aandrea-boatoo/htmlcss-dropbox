@@ -442,3 +442,42 @@ figure a{
 }
 
 /* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer nav{
+    margin: 30px 0;
+}
+
+footer ul{
+    width: 19%;
+}
+
+
+footer h3{
+    font-size: x-large;
+}
+
+.big-cont nav ul li a{
+    color: white;
+}
+
+footer hr{
+    width: 15%;
+}
+
+#language{
+    height: 60px;
+    padding: 15px 0;
+}
+
+#language i{
+    font-size: large;
+}
+select{
+    font-size: large;
+    background-color: black;
+    color: white;
+}
