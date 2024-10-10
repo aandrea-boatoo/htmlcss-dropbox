@@ -413,5 +413,32 @@ figure a{
     padding: 15px;
 }
 
+/* call-to-action */
+#call-to-action{
+    background-color: var(--color-sky-bg);
+}
+
+#call-to-action > div{
+    padding: 30px 0;
+}
+
+#call-to-action h2{
+    color: var(--color-contrast-text);
+    width: 50%;
+    font-size: xx-large;
+}
+
+#call-to-action .button{
+    width: 25%;
+    height: 50px;
+    margin: 15px 0;
+    background-color: white;
+}
+
+#call-to-action .button a{
+    color: black;
+    height: 50px;
+    width: 100%;
+}
 
 /* footer */
