@@ -47,6 +47,10 @@
     align-items: flex-start;
 }
 
+.gap-30{
+    gap: 30px;
+}
+
 /* header */
 header{
     background-color: white;
@@ -114,6 +118,10 @@ header .img a img{
     background-color: var(--color-blue-button);
 }
 
+.hd-button:hover{
+    box-shadow: 5px 5px #b4d0e7;
+}
+
 .hd-button a{
     width: 100%;
 }
@@ -125,6 +133,17 @@ span a:not(.plan-margin .button a){
     line-height: 50px;
 }
 
+/* #function-ul-cont{
+    display: none;
+}
+
+#function:hover #function-ul-cont{
+    display: flex;
+}
+
+#function-ul-cont{
+    background-color: white;
+} */
 /* main */
 
 /* Jumobo */
@@ -153,12 +172,21 @@ h1{
 }
 
 #jumbo-cont p{
+    padding-bottom: 45px;
+}
+
+#cancel{
     padding: 30px 0;
 }
 
 .button {
     text-align: center;
     background-color: var(--color-blue-button);
+    padding: 0 15px;
+}
+
+.button:hover {
+    box-shadow: 5px 5px #cae5fc;
 }
 
 .fa-arrow-down{
@@ -200,7 +228,6 @@ input{
 .plan-margin{
     width: 80%;
     margin: 0 auto;
-    /* font-size: 0.9em; */
 }
 
 .grey-brd p{
@@ -436,7 +463,6 @@ figure a{
     background-color: #ffdf51;
 }
 
-
 #roll-text-cont{
     background-color: #eeeeee;
     max-width: 33vw;
@@ -479,6 +505,10 @@ figure a{
     height: 50px;
     margin: 15px 0;
     background-color: white;
+}
+
+#call-to-action .button:hover{
+    box-shadow: 5px 5px #cae5fc;
 }
 
 #call-to-action .button a{
