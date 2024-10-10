@@ -339,13 +339,28 @@ figure a{
 /* collab */
 
 .logo-cont{
-    background-color: #61082b;
     width: 33vw;
     height: 33vw;
 }
 
+
+.logo:hover .logo-cont2{
+    display: block;
+}
+
 .logo{
     width: 50%;
+    position: relative;
+    
+}
+
+.logo-cont2{
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    display: none;
 }
 
 .logo img{
@@ -362,38 +377,69 @@ figure a{
     background-color: var(--color-designit);
 }
 
+#designit-2{
+    background-color: #ade3a6;
+}
+
 #asu{
     background-color: var(--color-asu);
+}
+
+#asu-2{
+    background-color: #800d39;
 }
 
 #florida{
     background-color: var(--color-florida);
 }
 
+#florida-2{
+    background-color: #00a7e9;
+}
+
 #topps{
     background-color: var(--color-topps);
+}
+
+#topps-2{
+    background-color: #ff4e4e;
 }
 
 #wbr{
     background-color: var(--color-world-bicycle-relief);
 }
 
+#wbr-2{
+    background-color: #ec0023;
+}
+
 #hearst{
     background-color: var(--color-hearts);
+}
+
+#hearst-2{
+    background-color: #cae5fc;
 }
 
 #lonely-planet{
     background-color: var(--color-lonely-planet);
 }
 
+#lonely-planet-2{
+    background-color: #1330a8;
+}
 #clear-channel{
     background-color: var(--color-clear-channel);
+}
+
+#clear-channel-2{
+    background-color: #ffdf51;
 }
 
 
 #roll-text-cont{
     background-color: #eeeeee;
-    width: 33vw;
+    max-width: 33vw;
     height: 33vw;
     overflow-y: scroll;
 }
@@ -403,7 +449,7 @@ figure a{
 }
 
 .quote img{
-    height: 90px;
+    height: 75px;
 }
 #roll-text{
     padding: 30px;
@@ -448,10 +494,6 @@ figure a{
 
 #faq h2{
     font-size: xx-large;
-}
-
-#faq details{
-    /* togliere i triangoli per poi metterli a destra */
 }
 
 summary{
